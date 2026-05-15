@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(206, 211, 218);
+    color: darkblue;
+    
+}
+h1{
+    color: rgb(0, 57, 15);
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+.card{
+    width: 150px;
+    padding: 30px;
+    margin: 30px;
+    border: 2px solid rgb(73, 73, 135);
+    border-radius: 10px;
+
+}
+
