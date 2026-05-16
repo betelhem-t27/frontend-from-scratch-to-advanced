@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(126, 176, 227);
+}
+h1{
+    color:  rgb(78, 1, 1);
+    text-align: center;
+    margin: 40px;
+    
+}
+.team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.card{
+    border: 2px solid rgb(1, 84, 1);
+    border-radius: 10px;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+.card h2{
+    color: rgb(39, 3, 74);
+}
+.card h3{
+    color: rgb(78, 1, 1);
+}
+@media (max-width: 768px; ){
+    .team{
+        flex-direction: column;
+    }
+    
+    body{
+        background-color: darkkhaki;
+    }
+
+
+}
+    
+
